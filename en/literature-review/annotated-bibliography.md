@@ -1,6 +1,6 @@
 ---
 name: annotated-bibliography
-description: Prepares academic reading notes and annotated bibliographies (articles, book chapters, theses, and dissertations) according to scientific methodology standards (APA/Chicago). Extracts central thesis, objectives, key concepts, verbatim excerpt sections with exact page numbering, and critical appraisal.
+description: "Prepares academic reading notes and annotated bibliographies (articles, book chapters, theses, and dissertations) according to scientific methodology standards (APA/Chicago). Extracts central thesis, objectives, key concepts, verbatim excerpt sections with exact page numbering, and critical appraisal."
 ---
 
 # Academic Reading Notes & Annotated Bibliography

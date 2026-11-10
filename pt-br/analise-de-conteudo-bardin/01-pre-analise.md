@@ -1,6 +1,6 @@
 ---
 name: bardin-pre-analise
-description: Estrutura e valida a fase de Pré-Análise na Análise de Conteúdo de Laurence Bardin (Edições 70, 2011/2016). Guia a leitura flutuante, audita as 4 regras do corpus (exaustividade, representatividade, homogeneidade, pertinência) e formaliza hipóteses, objetivos e índices de leitura.
+description: "Estrutura e valida a fase de Pré-Análise na Análise de Conteúdo de Laurence Bardin (Edições 70, 2011/2016). Guia a leitura flutuante, audita as 4 regras do corpus (exaustividade, representatividade, homogeneidade, pertinência) e formaliza hipóteses, objetivos e índices de leitura."
 ---
 
 # Bardin: Pré-Análise de Conteúdo

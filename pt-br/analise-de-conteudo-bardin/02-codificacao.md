@@ -1,6 +1,6 @@
 ---
 name: bardin-codificacao
-description: Operacionaliza a etapa de Codificação na Análise de Conteúdo de Laurence Bardin (Fase 2: Exploração do Material). Auxilia na definição e recorte de Unidades de Registro (UR) e Unidades de Contexto (UC), estabelece regras de enumeração/contagem e extrai evidências textuais codificadas.
+description: "Operacionaliza a etapa de Codificação na Análise de Conteúdo de Laurence Bardin (Fase 2: Exploração do Material). Auxilia na definição e recorte de Unidades de Registro (UR) e Unidades de Contexto (UC), estabelece regras de enumeração/contagem e extrai evidências textuais codificadas."
 ---
 
 # Bardin: Codificação e Recorte do Material

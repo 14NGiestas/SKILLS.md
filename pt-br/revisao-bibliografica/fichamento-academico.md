@@ -1,6 +1,6 @@
 ---
 name: fichamento-academico
-description: Elabora fichamentos de obras acadêmicas (artigos, capítulos de livros, teses e dissertações) nos padrões da metodologia científica (ABNT/APA). Extrai a tese central, objetivos, conceitos-chave, seções de citações diretas com paginação exata e apreciação crítica.
+description: "Elabora fichamentos de obras acadêmicas (artigos, capítulos de livros, teses e dissertações) nos padrões da metodologia científica (ABNT/APA). Extrai a tese central, objetivos, conceitos-chave, seções de citações diretas com paginação exata e apreciação crítica."
 ---
 
 # Fichamento de Obras Acadêmicas

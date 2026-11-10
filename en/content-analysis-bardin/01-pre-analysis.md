@@ -1,6 +1,6 @@
 ---
 name: bardin-pre-analysis
-description: Structures and validates the Pre-Analysis phase in Laurence Bardin's Content Analysis framework (2011/2016). Guides floating reading, audits the 4 corpus rules (exhaustiveness, representativeness, homogeneity, relevance), and formalizes hypotheses, objectives, and reading indices.
+description: "Structures and validates the Pre-Analysis phase in Laurence Bardin's Content Analysis framework (2011/2016). Guides floating reading, audits the 4 corpus rules (exhaustiveness, representativeness, homogeneity, relevance), and formalizes hypotheses, objectives, and reading indices."
 ---
 
 # Bardin: Pre-Analysis of Content
