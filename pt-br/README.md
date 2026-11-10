@@ -9,11 +9,11 @@ Guia de prompts operacionais e metodológicos estruturados para apoiar pesquisas
 ## Comece aqui em 30 segundos
 
 1. Escolha uma skill nas tabelas abaixo.
-2. Abra o arquivo `.md` e copie o conteúdo inteiro.
+2. Abra o `SKILL.md` e copie o conteúdo inteiro.
 3. Cole no seu assistente:
    - **ChatGPT:** crie um Custom GPT e cole em *Instructions*.
    - **Claude:** abra um Project e cole em *Project knowledge*.
-   - **Agentes de CLI (opencode etc.):** adicione o arquivo ao diretório de skills ou cole no system prompt.
+   - **Agentes de CLI (opencode etc.):** se o repositório for seu diretório de trabalho, as skills carregam automaticamente via [`opencode.json`](../opencode.json).
 4. Envie seu material com um pedido claro, por exemplo:
    > Usando a skill `bardin-pre-analise`, monte o protocolo do corpus para os documentos anexados.
 
@@ -23,26 +23,26 @@ Primeira vez com Bardin? Leia o [exemplo de Pré-Análise](../examples/pt-br/bar
 
 | Se você tem... | Use... |
 | :--- | :--- |
-| Um artigo, capítulo ou tese para resumir com citações e páginas | [Fichamento Acadêmico](./revisao-bibliografica/fichamento-academico.md) |
-| Um monte de documentos e nenhum plano ainda | [Bardin 01 — Pré-Análise](./analise-de-conteudo-bardin/01-pre-analise.md) |
-| Um corpus aprovado e precisa recortar/contar unidades | [Bardin 02 — Codificação](./analise-de-conteudo-bardin/02-codificacao.md) |
-| Unidades codificadas e precisa de grupos com sentido | [Bardin 03 — Categorização](./analise-de-conteudo-bardin/03-categorizacao.md) |
-| Categorias finais e precisa redigir/defender a discussão | [Bardin 04 — Interpretação](./analise-de-conteudo-bardin/04-interpretacao.md) |
+| Um artigo, capítulo ou tese para resumir com citações e páginas | [Fichamento Acadêmico](./revisao-bibliografica/fichamento-academico/SKILL.md) |
+| Um monte de documentos e nenhum plano ainda | [Bardin 01 — Pré-Análise](./analise-de-conteudo-bardin/bardin-pre-analise/SKILL.md) |
+| Um corpus aprovado e precisa recortar/contar unidades | [Bardin 02 — Codificação](./analise-de-conteudo-bardin/bardin-codificacao/SKILL.md) |
+| Unidades codificadas e precisa de grupos com sentido | [Bardin 03 — Categorização](./analise-de-conteudo-bardin/bardin-categorizacao/SKILL.md) |
+| Categorias finais e precisa redigir/defender a discussão | [Bardin 04 — Interpretação](./analise-de-conteudo-bardin/bardin-interpretacao/SKILL.md) |
 
 ## Índice de Skills
 
 ### Revisão de Literatura & Fichamento
 | Skill | Metodologia / Norma | Descrição | Link |
 | :--- | :--- | :--- | :--- |
-| **Fichamento Acadêmico** | ABNT / APA | Estrutura tese central, resumo temático, transcrição de citações paginadas e crítica analítica. | [`revisao-bibliografica/fichamento-academico.md`](./revisao-bibliografica/fichamento-academico.md) |
+| **Fichamento Acadêmico** | ABNT / APA | Estrutura tese central, resumo temático, transcrição de citações paginadas e crítica analítica. | [`revisao-bibliografica/fichamento-academico/SKILL.md`](./revisao-bibliografica/fichamento-academico/SKILL.md) |
 
 ### Análise de Conteúdo (Laurence Bardin)
 | Etapa / Ficha | Fase de Bardin | Descrição | Link |
 | :--- | :--- | :--- | :--- |
-| **01. Pré-Análise** | Fase 1 | Leitura flutuante, auditoria das 4 regras do corpus e formalização de hipóteses/índices. | [`analise-de-conteudo-bardin/01-pre-analise.md`](./analise-de-conteudo-bardin/01-pre-analise.md) |
-| **02. Codificação** | Fase 2a | Recorte de Unidades de Registro (UR) e Contexto (UC), regras de enumeração e evidências textuais. | [`analise-de-conteudo-bardin/02-codificacao.md`](./analise-de-conteudo-bardin/02-codificacao.md) |
-| **03. Categorização** | Fase 2b | Agrupamento analógico, auditoria dos 5 critérios formais, dicionário categorial e matriz de rastreabilidade. | [`analise-de-conteudo-bardin/03-categorizacao.md`](./analise-de-conteudo-bardin/03-categorizacao.md) |
-| **04. Interpretação** | Fase 3 | Análise de conteúdo latente, triangulação teórica, redação metodológica e simulação de banca. | [`analise-de-conteudo-bardin/04-interpretacao.md`](./analise-de-conteudo-bardin/04-interpretacao.md) |
+| **01. Pré-Análise** | Fase 1 | Leitura flutuante, auditoria das 4 regras do corpus e formalização de hipóteses/índices. | [`analise-de-conteudo-bardin/bardin-pre-analise/SKILL.md`](./analise-de-conteudo-bardin/bardin-pre-analise/SKILL.md) |
+| **02. Codificação** | Fase 2a | Recorte de Unidades de Registro (UR) e Contexto (UC), regras de enumeração e evidências textuais. | [`analise-de-conteudo-bardin/bardin-codificacao/SKILL.md`](./analise-de-conteudo-bardin/bardin-codificacao/SKILL.md) |
+| **03. Categorização** | Fase 2b | Agrupamento analógico, auditoria dos 5 critérios formais, dicionário categorial e matriz de rastreabilidade. | [`analise-de-conteudo-bardin/bardin-categorizacao/SKILL.md`](./analise-de-conteudo-bardin/bardin-categorizacao/SKILL.md) |
+| **04. Interpretação** | Fase 3 | Análise de conteúdo latente, triangulação teórica, redação metodológica e simulação de banca. | [`analise-de-conteudo-bardin/bardin-interpretacao/SKILL.md`](./analise-de-conteudo-bardin/bardin-interpretacao/SKILL.md) |
 
 ---
 

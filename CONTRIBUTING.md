@@ -4,28 +4,32 @@ Thanks for helping improve these skills.
 
 ## Add or edit a skill
 
-1. Pick a language folder (`en/` or `pt-br/`) and the matching topic folder.
-2. Copy an existing `.md` file and rename it.
-3. Keep the YAML frontmatter and fill in both keys:
+Each skill is a folder containing a `SKILL.md` file. The folder name must match the frontmatter `name`.
+
+```text
+en/content-analysis-bardin/bardin-coding/
+└── SKILL.md
+```
 
 ```yaml
 ---
-name: my-skill-name
-description: "One or two sentences describing when the skill should be used."
+name: bardin-coding
+description: "Use when coding a corpus in Bardin's content analysis: cut Recording Units..."
 ---
 ```
 
 ### Rules
 
-- `name`: kebab-case and unique across the repo (e.g. `bardin-coding`).
+- `name`: kebab-case, unique across the repo, and identical to the folder name (e.g. `bardin-coding`).
 - `description`: **always wrap it in double quotes** if it contains `: ` (colon followed by a space). An unquoted colon is the most common cause of `mapping values are not allowed in this context`.
+- Start the description with `Use when...` (English) or `Use quando...` (Portuguese) and front-load the keywords a user is likely to say.
 - Keep `description` under 1024 characters. It is what agents use to decide when to load the skill.
 - Write the body in Markdown with a single H1 and clear `##` sections.
 - Keep the `en/` and `pt-br/` versions in sync when methodology changes.
-- Add the language switcher line under the H1, linking to the translated file:
+- Add the language switcher line under the H1, linking to the translated `SKILL.md`:
 
 ```markdown
-> **English** | [Português](../../pt-br/<topic>/<file>.md)
+> **English** | [Português](../../../pt-br/<topic>/<skill-name>/SKILL.md)
 ```
 
 ## Run the linter
@@ -35,7 +39,7 @@ pip install pyyaml
 python3 scripts/lint_skills.py
 ```
 
-CI runs the same command on every push and pull request.
+The linter checks the YAML, the folder/name match, duplicate names, and stray Markdown files. CI runs the same command on every push and pull request.
 
 ## Pull requests
 

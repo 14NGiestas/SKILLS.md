@@ -1,11 +1,11 @@
 ---
 name: annotated-bibliography
-description: "Prepares academic reading notes and annotated bibliographies (articles, book chapters, theses, and dissertations) according to scientific methodology standards (APA/Chicago). Extracts central thesis, objectives, key concepts, verbatim excerpt sections with exact page numbering, and critical appraisal."
+description: "Use when writing reading notes or an annotated bibliography for articles, book chapters, theses, or dissertations: extract the central thesis, objectives, key concepts, verbatim quotes with page numbers, and critical appraisal (APA/Chicago)."
 ---
 
 # Academic Reading Notes & Annotated Bibliography
 
-> **English** | [Português](../../pt-br/revisao-bibliografica/fichamento-academico.md)
+> **English** | [Português](../../../pt-br/revisao-bibliografica/fichamento-academico/SKILL.md)
 
 Skill for operationalizing systematic reading notes and annotated bibliographies of scientific literature (articles, books, theses, and dissertations) in accordance with scientific methodology standards.
 

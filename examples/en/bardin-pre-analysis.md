@@ -1,6 +1,6 @@
 # Example: Pre-Analysis in practice
 
-This walkthrough shows how to use [`bardin-pre-analysis`](../../en/content-analysis-bardin/01-pre-analysis.md) on a small corpus.
+This walkthrough shows how to use [`bardin-pre-analysis`](../../en/content-analysis-bardin/bardin-pre-analysis/SKILL.md) on a small corpus.
 
 ## The request
 

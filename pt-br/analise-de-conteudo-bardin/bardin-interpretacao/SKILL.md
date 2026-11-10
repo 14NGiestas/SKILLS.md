@@ -1,11 +1,11 @@
 ---
 name: bardin-interpretacao
-description: "Operacionaliza a Fase 3 (Tratamento dos Resultados, Inferência e Interpretação) na Análise de Conteúdo de Laurence Bardin (Edições 70, 2011/2016). Guia a análise do conteúdo latente, a articulação com o referencial teórico, a construção da redação metodológica e a simulação de defesa para a banca examinadora."
+description: "Use quando for interpretar e defender a Análise de Conteúdo de Bardin: passar do conteúdo manifesto ao latente, triangular os achados com a teoria, redigir resultados/discussão e simular perguntas de banca. Fase 3 (Bardin, 2011/2016)."
 ---
 
 # Bardin: Inferência, Interpretação e Defesa Metodológica
 
-> [English](../../en/content-analysis-bardin/04-interpretation.md) | **Português**
+> [English](../../../en/content-analysis-bardin/bardin-interpretation/SKILL.md) | **Português**
 
 Skill para operacionalizar a Fase 3 (Tratamento dos Resultados, Inferência e Interpretação) da metodologia de Análise de Conteúdo de Laurence Bardin (2011/2016). Conecta as categorias empíricas ao referencial teórico e prepara o pesquisador para defender a validade da análise perante a banca examinadora.
 

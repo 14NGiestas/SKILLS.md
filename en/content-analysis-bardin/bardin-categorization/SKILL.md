@@ -1,11 +1,11 @@
 ---
 name: bardin-categorization
-description: "Operationalizes the Categorization stage in Laurence Bardin's Content Analysis (Phase 2: Exploration of Material). Groups recording units into categories and subcategories, audits Bardin's 5 formal criteria (mutual exclusion, homogeneity, relevance, objectivity/fidelity, and productivity), builds the category dictionary, and generates the traceability matrix."
+description: "Use when grouping coded units into categories in Bardin's content analysis: build categories and subcategories, audit the 5 formal criteria (mutual exclusion, homogeneity, relevance, objectivity/fidelity, productivity), write the category dictionary, and produce the traceability matrix."
 ---
 
 # Bardin: Categorization and Traceability Matrix
 
-> **English** | [Português](../../pt-br/analise-de-conteudo-bardin/03-categorizacao.md)
+> **English** | [Português](../../../pt-br/analise-de-conteudo-bardin/bardin-categorizacao/SKILL.md)
 
 Skill to operationalize Step 5 (Categorization) of Phase 2 (Exploration of Material) in Laurence Bardin's Content Analysis (2011/2016). Organizes Recording Units (RU) into robust and auditable analytical categories.
 

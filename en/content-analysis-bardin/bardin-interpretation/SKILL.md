@@ -1,11 +1,11 @@
 ---
 name: bardin-interpretation
-description: "Operationalizes Phase 3 (Treatment of Results, Inference, and Interpretation) in Laurence Bardin's Content Analysis (2011/2016). Guides latent content analysis, articulation with the theoretical framework, methodological drafting, and viva/examination board simulation."
+description: "Use when interpreting and defending Bardin's content analysis: move from manifest to latent content, triangulate findings with theory, draft the results/discussion, and simulate examination-board questions. Phase 3 (Bardin, 2011/2016)."
 ---
 
 # Bardin: Inference, Interpretation, and Methodological Defense
 
-> **English** | [Português](../../pt-br/analise-de-conteudo-bardin/04-interpretacao.md)
+> **English** | [Português](../../../pt-br/analise-de-conteudo-bardin/bardin-interpretacao/SKILL.md)
 
 Skill to operationalize Phase 3 (Treatment of Results, Inference, and Interpretation) of Laurence Bardin's Content Analysis methodology (2011/2016). Connects empirical categories to the theoretical framework and prepares the researcher to defend the validity of the analysis before an examination board.
 

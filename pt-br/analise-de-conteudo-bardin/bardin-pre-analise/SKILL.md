@@ -1,11 +1,11 @@
 ---
 name: bardin-pre-analise
-description: "Estrutura e valida a fase de Pré-Análise na Análise de Conteúdo de Laurence Bardin (Edições 70, 2011/2016). Guia a leitura flutuante, audita as 4 regras do corpus (exaustividade, representatividade, homogeneidade, pertinência) e formaliza hipóteses, objetivos e índices de leitura."
+description: "Use quando for planejar o corpus da Análise de Conteúdo de Bardin: leitura flutuante, as 4 regras do corpus (exaustividade, representatividade, homogeneidade, pertinência) e formalização de hipóteses, objetivos e índices de leitura. Fase 1 de Bardin (2011/2016)."
 ---
 
 # Bardin: Pré-Análise de Conteúdo
 
-> [English](../../en/content-analysis-bardin/01-pre-analysis.md) | **Português**
+> [English](../../../en/content-analysis-bardin/bardin-pre-analysis/SKILL.md) | **Português**
 
 Skill para operacionalizar e documentar rigorosamente a Fase 1 (Pré-Análise) da metodologia de Análise de Conteúdo de Laurence Bardin (2011/2016). Assegura que a escolha, organização e preparação do corpus textual sigam parâmetros auditáveis para bancas acadêmicas.
 

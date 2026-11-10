@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Lint the YAML frontmatter of every skill file in this repository.
+"""Lint the YAML frontmatter of every skill in this repository.
 
-A skill file is any Markdown file outside the README/CONTRIBUTING files and
-the examples, scripts, and .github directories.
+A skill is a folder containing a SKILL.md file. The folder name must match the
+frontmatter `name` field so that opencode/Claude-style discovery works.
 
 Usage:
     python3 scripts/lint_skills.py
@@ -23,22 +23,28 @@ except ModuleNotFoundError:
     sys.exit("error: PyYAML is required. Install it with: pip install pyyaml")
 
 ROOT = Path(__file__).resolve().parent.parent
-SKIP_DIRS = {".git", ".github", ".opencode", "examples", "scripts"}
-SKIP_FILES = {"README.md", "CONTRIBUTING.md", "LICENSE"}
+SKIP_DIRS = {".git", ".github", ".opencode"}
 NAME_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 REQUIRED_KEYS = ("name", "description")
 
 
 def skill_files() -> list[Path]:
     files: list[Path] = []
-    for path in sorted(ROOT.rglob("*.md")):
+    for path in sorted(ROOT.rglob("SKILL.md")):
         rel = path.relative_to(ROOT)
         if rel.parts[0] in SKIP_DIRS:
             continue
-        if path.name in SKIP_FILES:
-            continue
         files.append(path)
     return files
+
+
+def stray_markdown() -> list[Path]:
+    strays: list[Path] = []
+    for language in ("en", "pt-br"):
+        for path in sorted((ROOT / language).rglob("*.md")):
+            if path.name not in {"SKILL.md", "README.md"}:
+                strays.append(path)
+    return strays
 
 
 def split_frontmatter(text: str) -> str | None:
@@ -55,10 +61,16 @@ def main() -> int:
     errors: list[str] = []
     seen: dict[str, Path] = {}
 
+    for path in stray_markdown():
+        rel = path.relative_to(ROOT)
+        errors.append(
+            f"{rel}: unexpected Markdown file; use <skill-name>/SKILL.md or README.md"
+        )
+
     files = skill_files()
     if not files:
-        print("No skill files found. Nothing to lint.")
-        return 0
+        print("No SKILL.md files found. Nothing to lint.")
+        return 1
 
     for path in files:
         rel = path.relative_to(ROOT)
@@ -88,9 +100,14 @@ def main() -> int:
 
         name = data.get("name")
         if isinstance(name, str):
+            expected = path.parent.name
             if not NAME_RE.match(name):
                 errors.append(
                     f"{rel}: name '{name}' must be kebab-case (e.g. bardin-coding)"
+                )
+            if name != expected:
+                errors.append(
+                    f"{rel}: name '{name}' must match the folder name '{expected}'"
                 )
             if name in seen:
                 errors.append(

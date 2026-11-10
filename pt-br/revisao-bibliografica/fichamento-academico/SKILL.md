@@ -1,11 +1,11 @@
 ---
 name: fichamento-academico
-description: "Elabora fichamentos de obras acadêmicas (artigos, capítulos de livros, teses e dissertações) nos padrões da metodologia científica (ABNT/APA). Extrai a tese central, objetivos, conceitos-chave, seções de citações diretas com paginação exata e apreciação crítica."
+description: "Use quando for fazer fichamento ou bibliografia anotada de artigos, capítulos, teses ou dissertações: extrair tese central, objetivos, conceitos-chave, citações diretas com páginas e apreciação crítica (ABNT/APA)."
 ---
 
 # Fichamento de Obras Acadêmicas
 
-> [English](../../en/literature-review/annotated-bibliography.md) | **Português**
+> [English](../../../en/literature-review/annotated-bibliography/SKILL.md) | **Português**
 
 Skill para operacionalizar o fichamento sistemático de literatura científica (artigos, livros, teses e dissertações) conforme as normas de metodologia do trabalho científico.
 

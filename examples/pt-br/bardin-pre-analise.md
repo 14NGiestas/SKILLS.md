@@ -1,6 +1,6 @@
 # Exemplo: Pré-Análise na prática
 
-Este roteiro mostra como usar a skill [`bardin-pre-analise`](../../pt-br/analise-de-conteudo-bardin/01-pre-analise.md) em um corpus pequeno.
+Este roteiro mostra como usar a skill [`bardin-pre-analise`](../../pt-br/analise-de-conteudo-bardin/bardin-pre-analise/SKILL.md) em um corpus pequeno.
 
 ## O pedido
 

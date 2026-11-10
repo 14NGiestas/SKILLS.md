@@ -1,11 +1,11 @@
 ---
 name: bardin-coding
-description: "Operationalizes the Coding stage in Laurence Bardin's Content Analysis (Phase 2: Exploration of Material). Assists in defining and cutting Recording Units (RU) and Context Units (CU), establishes enumeration/counting rules, and extracts coded textual evidence."
+description: "Use when coding a corpus in Bardin's content analysis: cut Recording Units (RU) and Context Units (CU), set enumeration/counting rules, and extract coded textual evidence. Step 4 of Phase 2 (Bardin, 2011/2016)."
 ---
 
 # Bardin: Coding and Material Cutout
 
-> **English** | [Português](../../pt-br/analise-de-conteudo-bardin/02-codificacao.md)
+> **English** | [Português](../../../pt-br/analise-de-conteudo-bardin/bardin-codificacao/SKILL.md)
 
 Skill to operationalize Step 4 (Coding) of Phase 2 (Exploration of Material) in Laurence Bardin's Content Analysis (2011/2016). Transforms raw material into organized analytical data using units of recording and counting.
 

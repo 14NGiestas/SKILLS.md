@@ -1,11 +1,11 @@
 ---
 name: bardin-categorizacao
-description: "Operacionaliza a etapa de Categorização na Análise de Conteúdo de Laurence Bardin (Fase 2: Exploração do Material). Agrupa unidades de registro em categorias e subcategorias, audita os 5 critérios formais de Bardin (exclusão mútua, homogeneidade, pertinência, objetividade/fidelidade e produtividade), constrói o dicionário categorial e gera a matriz de rastreabilidade."
+description: "Use quando for agrupar unidades codificadas em categorias na Análise de Conteúdo de Bardin: construir categorias e subcategorias, auditar os 5 critérios formais (exclusão mútua, homogeneidade, pertinência, objetividade/fidelidade, produtividade), elaborar o dicionário categorial e gerar a matriz de rastreabilidade."
 ---
 
 # Bardin: Categorização e Matriz de Rastreabilidade
 
-> [English](../../en/content-analysis-bardin/03-categorization.md) | **Português**
+> [English](../../../en/content-analysis-bardin/bardin-categorization/SKILL.md) | **Português**
 
 Skill para operacionalizar o Passo 5 (Categorização) da Fase 2 (Exploração do Material) na Análise de Conteúdo de Laurence Bardin (2011/2016). Organiza as Unidades de Registro (UR) em categorias analíticas robustas e auditáveis.
 
