@@ -26,6 +26,7 @@ description: "Use when coding a corpus in Bardin's content analysis: cut Recordi
 - Keep `description` under 1024 characters. It is what agents use to decide when to load the skill.
 - Write the body in Markdown with a single H1 and clear `##` sections.
 - Keep the `en/` and `pt-br/` versions in sync when methodology changes.
+- Keep the root `README.md` and `README.pt-br.md` in sync when the structure or instructions change.
 - Add the language switcher line under the H1, linking to the translated `SKILL.md`:
 
 ```markdown

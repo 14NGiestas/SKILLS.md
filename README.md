@@ -2,7 +2,7 @@
 
 A collection of Markdown **skills**: structured prompts for academic research, qualitative methodology (Bardin's Content Analysis), and literature review in the Humanities and Social Sciences.
 
-**Languages:** [English](./README.md) | [Português (pt-br)](./pt-br/README.md)
+**Languages:** [English](./README.md) | [Português](./README.pt-br.md)
 
 ---
 
@@ -95,6 +95,7 @@ List the available skills, then for each one I choose:
 ```text
 SKILLS.md/
 ├── README.md
+├── README.pt-br.md
 ├── CONTRIBUTING.md
 ├── LICENSE
 ├── llms.txt
