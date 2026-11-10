@@ -1,6 +1,6 @@
 ---
 name: humanizador
-description: Remove sinais de escrita gerada por IA em textos. Use ao editar ou revisar textos para que soem mais naturais e humanos. Baseado no guia da Wikipédia "Signs of AI writing". Detecta e corrige padrões como: simbolismo inflado, linguagem promocional, análises superficiais com gerúndio, atribuições vagas, uso excessivo de travessões, regra de três, vocabulário típico de IA, voz passiva, paralelismos negativos e frases de enchimento.
+description: 'Remove sinais de escrita gerada por IA em textos. Use ao editar ou revisar textos para que soem mais naturais e humanos. Baseado no guia da Wikipédia "Signs of AI writing". Detecta e corrige padrões como: simbolismo inflado, linguagem promocional, análises superficiais com gerúndio, atribuições vagas, uso excessivo de travessões, regra de três, vocabulário típico de IA, voz passiva, paralelismos negativos e frases de enchimento.'
 ---
 # Humanizador: Remoção de Padrões de Escrita de IA
 
