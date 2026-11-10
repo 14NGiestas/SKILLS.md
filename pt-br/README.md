@@ -24,6 +24,7 @@ Primeira vez com Bardin? Leia o [exemplo de Pré-Análise](../examples/pt-br/bar
 | Se você tem... | Use... |
 | :--- | :--- |
 | Um artigo, capítulo ou tese para resumir com citações e páginas | [Fichamento Acadêmico](./revisao-bibliografica/fichamento-academico/SKILL.md) |
+| Uma lista de referências para montar ou conferir conforme a ABNT | [Referências ABNT](./revisao-bibliografica/abnt-referencias/SKILL.md) |
 | Um monte de documentos e nenhum plano ainda | [Bardin 01 — Pré-Análise](./analise-de-conteudo-bardin/bardin-pre-analise/SKILL.md) |
 | Um corpus aprovado e precisa recortar/contar unidades | [Bardin 02 — Codificação](./analise-de-conteudo-bardin/bardin-codificacao/SKILL.md) |
 | Unidades codificadas e precisa de grupos com sentido | [Bardin 03 — Categorização](./analise-de-conteudo-bardin/bardin-categorizacao/SKILL.md) |
@@ -35,6 +36,7 @@ Primeira vez com Bardin? Leia o [exemplo de Pré-Análise](../examples/pt-br/bar
 | Skill | Metodologia / Norma | Descrição | Link |
 | :--- | :--- | :--- | :--- |
 | **Fichamento Acadêmico** | ABNT / APA | Estrutura tese central, resumo temático, transcrição de citações paginadas e crítica analítica. | [`revisao-bibliografica/fichamento-academico/SKILL.md`](./revisao-bibliografica/fichamento-academico/SKILL.md) |
+| **Referências ABNT** | ABNT NBR 6023:2025 | Modelos e regras de autoria, ordem dos elementos, pontuação, DOI, URL e data de acesso para todos os tipos de fonte. | [`revisao-bibliografica/abnt-referencias/SKILL.md`](./revisao-bibliografica/abnt-referencias/SKILL.md) |
 
 ### Análise de Conteúdo (Laurence Bardin)
 | Etapa / Ficha | Fase de Bardin | Descrição | Link |

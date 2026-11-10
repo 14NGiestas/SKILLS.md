@@ -95,6 +95,7 @@ Ative o Pages uma vez em **Settings → Pages → Source: GitHub Actions**.
 | Se você tem... | Use... |
 | :--- | :--- |
 | Um artigo, capítulo ou tese para resumir com citações e páginas | [Fichamento Acadêmico](./pt-br/revisao-bibliografica/fichamento-academico/SKILL.md) |
+| Uma lista de referências para montar ou conferir conforme a ABNT | [Referências ABNT](./pt-br/revisao-bibliografica/abnt-referencias/SKILL.md) |
 | Um monte de documentos e nenhum plano ainda | [Bardin 01 — Pré-Análise](./pt-br/analise-de-conteudo-bardin/bardin-pre-analise/SKILL.md) |
 | Um corpus aprovado e precisa recortar/contar unidades | [Bardin 02 — Codificação](./pt-br/analise-de-conteudo-bardin/bardin-codificacao/SKILL.md) |
 | Unidades codificadas e precisa de grupos com sentido | [Bardin 03 — Categorização](./pt-br/analise-de-conteudo-bardin/bardin-categorizacao/SKILL.md) |
@@ -132,6 +133,14 @@ SKILLS.md/
 └── pt-br/
     ├── README.md
     ├── revisao-bibliografica/
+    │   ├── abnt-referencias/
+    │   │   ├── SKILL.md
+    │   │   └── references/
+    │   │       ├── livros-capitulos-teses.md
+    │   │       ├── midias-e-online.md
+    │   │       ├── modelos-rapidos.md
+    │   │       ├── periodicos-eventos-juridico.md
+    │   │       └── regras-gerais-e-autoria.md
     │   └── fichamento-academico/SKILL.md
     └── analise-de-conteudo-bardin/
         ├── bardin-pre-analise/SKILL.md

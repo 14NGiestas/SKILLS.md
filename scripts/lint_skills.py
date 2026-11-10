@@ -42,8 +42,11 @@ def stray_markdown() -> list[Path]:
     strays: list[Path] = []
     for language in ("en", "pt-br"):
         for path in sorted((ROOT / language).rglob("*.md")):
-            if path.name not in {"SKILL.md", "README.md"}:
-                strays.append(path)
+            if path.name in {"SKILL.md", "README.md"}:
+                continue
+            if "references" in path.relative_to(ROOT / language).parts:
+                continue
+            strays.append(path)
     return strays
 
 

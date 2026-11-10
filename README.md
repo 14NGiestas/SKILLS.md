@@ -95,6 +95,7 @@ Enable Pages once under **Settings → Pages → Source: GitHub Actions**.
 | If you have... | Use... |
 | :--- | :--- |
 | A paper, chapter, or thesis to summarize with quotes and page numbers | [Annotated Bibliography](./en/literature-review/annotated-bibliography/SKILL.md) |
+| An ABNT reference list to build or check (Portuguese) | [Referências ABNT](./pt-br/revisao-bibliografica/abnt-referencias/SKILL.md) |
 | A pile of documents and no plan yet | [Bardin 01 — Pre-Analysis](./en/content-analysis-bardin/bardin-pre-analysis/SKILL.md) |
 | An approved corpus and need to cut/count text units | [Bardin 02 — Coding](./en/content-analysis-bardin/bardin-coding/SKILL.md) |
 | Coded units and need meaningful groups | [Bardin 03 — Categorization](./en/content-analysis-bardin/bardin-categorization/SKILL.md) |
@@ -132,6 +133,14 @@ SKILLS.md/
 └── pt-br/
     ├── README.md
     ├── revisao-bibliografica/
+    │   ├── abnt-referencias/
+    │   │   ├── SKILL.md
+    │   │   └── references/
+    │   │       ├── livros-capitulos-teses.md
+    │   │       ├── midias-e-online.md
+    │   │       ├── modelos-rapidos.md
+    │   │       ├── periodicos-eventos-juridico.md
+    │   │       └── regras-gerais-e-autoria.md
     │   └── fichamento-academico/SKILL.md
     └── analise-de-conteudo-bardin/
         ├── bardin-pre-analise/SKILL.md

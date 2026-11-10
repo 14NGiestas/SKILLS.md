@@ -33,6 +33,10 @@ description: "Use when coding a corpus in Bardin's content analysis: cut Recordi
 > **English** | [Português](../../../pt-br/<topic>/<skill-name>/SKILL.md)
 ```
 
+### Progressive disclosure
+
+Long skills can keep the main `SKILL.md` short and put detailed material in a `references/` folder inside the skill, using Markdown files. The main file should point to the relevant reference so agents load only what they need. The linter allows `references/**/*.md`; any other Markdown under `en/` or `pt-br/` must be a `SKILL.md` or `README.md`.
+
 ## Run the linter
 
 ```bash
