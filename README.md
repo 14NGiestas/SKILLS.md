@@ -80,6 +80,16 @@ List the available skills, then for each one I choose:
 4. Show the three fields ready to paste into Gemini's Skills/Habilidades screen.
 ```
 
+## Website
+
+A static catalog is published with GitHub Pages:
+
+**https://14ngiestas.github.io/SKILLS.md/**
+
+The site is built by the reusable [14NGiestas/skills-site](https://github.com/14NGiestas/skills-site) action from the same `SKILL.md` files; no generated files are committed. `.github/workflows/pages.yml` rebuilds and deploys it on every push to `main`.
+
+Enable Pages once under **Settings → Pages → Source: GitHub Actions**.
+
 ## Which skill do I need?
 
 | If you have... | Use... |
@@ -103,7 +113,8 @@ SKILLS.md/
 ├── scripts/
 │   └── lint_skills.py
 ├── .github/workflows/
-│   └── lint.yml
+│   ├── lint.yml
+│   └── pages.yml
 ├── examples/
 │   ├── README.md
 │   ├── en/bardin-pre-analysis.md

@@ -3,6 +3,7 @@
 > Markdown skills for academic research, Bardin's Content Analysis, and literature review. Each skill is a folder containing a `SKILL.md` file (YAML frontmatter + Markdown body).
 
 Repository: https://github.com/14NGiestas/SKILLS.md
+Website: https://14ngiestas.github.io/SKILLS.md/
 English README: https://raw.githubusercontent.com/14NGiestas/SKILLS.md/main/README.md
 Portuguese README: https://raw.githubusercontent.com/14NGiestas/SKILLS.md/main/README.pt-br.md
 English catalog: https://raw.githubusercontent.com/14NGiestas/SKILLS.md/main/en/README.md

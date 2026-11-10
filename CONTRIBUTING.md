@@ -42,6 +42,10 @@ python3 scripts/lint_skills.py
 
 The linter checks the YAML, the folder/name match, duplicate names, and stray Markdown files. CI runs the same command on every push and pull request.
 
+## Website
+
+The GitHub Pages site is built automatically by the reusable [skills-site](https://github.com/14NGiestas/skills-site) action. Generated files are not committed, so there is nothing to rebuild locally.
+
 ## Pull requests
 
 - Keep one topic per PR.
