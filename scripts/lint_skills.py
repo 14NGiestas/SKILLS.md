@@ -125,15 +125,6 @@ def main() -> int:
                 f"{rel}: description is {len(description)} chars (keep it under 1024)"
             )
 
-    manifest = ROOT / "llms.txt"
-    if not manifest.exists():
-        errors.append("llms.txt: missing agent discovery manifest")
-    else:
-        manifest_text = manifest.read_text(encoding="utf-8")
-        for name in sorted(seen):
-            if name not in manifest_text:
-                errors.append(f"llms.txt: missing entry for skill '{name}'")
-
     if errors:
         print(f"Found {len(errors)} problem(s) in {len(files)} skill file(s):\n")
         for error in errors:

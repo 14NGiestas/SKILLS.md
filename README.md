@@ -60,7 +60,8 @@ For Claude, copy or symlink the folders you want into `~/.claude/skills/`.
 
 Give an agent a single link and it can find everything:
 
-- **Manifest:** https://raw.githubusercontent.com/14NGiestas/SKILLS.md/main/llms.txt
+- **Manifest:** https://14ngiestas.github.io/SKILLS.md/llms.txt
+- **Agent catalog:** https://14ngiestas.github.io/SKILLS.md/catalog.md
 - **File tree:** https://api.github.com/repos/14NGiestas/SKILLS.md/git/trees/main?recursive=1
 
 Install into opencode globally with:
@@ -72,7 +73,7 @@ git clone --depth 1 https://github.com/14NGiestas/SKILLS.md ~/.config/opencode/s
 Restart opencode afterwards; every `SKILL.md` under that folder is discovered (both languages). For Gemini web or chat-only agents, paste this prompt:
 
 ```text
-Fetch https://raw.githubusercontent.com/14NGiestas/SKILLS.md/main/llms.txt
+Fetch https://14ngiestas.github.io/SKILLS.md/llms.txt
 List the available skills, then for each one I choose:
 1. Fetch its SKILL.md.
 2. Use the frontmatter `name` as the skill name and `description` as the trigger.
@@ -86,7 +87,7 @@ A static catalog is published with GitHub Pages:
 
 **https://14ngiestas.github.io/SKILLS.md/**
 
-The site is built by the reusable [14NGiestas/skills-site](https://github.com/14NGiestas/skills-site) action from the same `SKILL.md` files; no generated files are committed. `.github/workflows/pages.yml` rebuilds and deploys it on every push to `main`.
+The site is built by the reusable [14NGiestas/skills-site](https://github.com/14NGiestas/skills-site) action from the same `SKILL.md` files; no generated files are committed. The action also generates `llms.txt` and `catalog.md` for agents. `.github/workflows/pages.yml` rebuilds and deploys it on every push to `main`.
 
 Enable Pages once under **Settings → Pages → Source: GitHub Actions**.
 
@@ -109,7 +110,6 @@ SKILLS.md/
 ├── README.pt-br.md
 ├── CONTRIBUTING.md
 ├── LICENSE
-├── llms.txt
 ├── opencode.json
 ├── scripts/
 │   └── lint_skills.py

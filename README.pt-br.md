@@ -60,7 +60,8 @@ Para o Claude, copie ou crie links simbólicos das pastas desejadas em `~/.claud
 
 Dê um único link ao agente e ele encontra tudo:
 
-- **Manifesto:** https://raw.githubusercontent.com/14NGiestas/SKILLS.md/main/llms.txt
+- **Manifesto:** https://14ngiestas.github.io/SKILLS.md/llms.txt
+- **Catálogo para agentes:** https://14ngiestas.github.io/SKILLS.md/catalog.md
 - **Árvore de arquivos:** https://api.github.com/repos/14NGiestas/SKILLS.md/git/trees/main?recursive=1
 
 Instale globalmente no opencode com:
@@ -72,7 +73,7 @@ git clone --depth 1 https://github.com/14NGiestas/SKILLS.md ~/.config/opencode/s
 Reinicie o opencode depois; todo `SKILL.md` dentro dessa pasta é descoberto (os dois idiomas). Para o Gemini web ou agentes de chat, cole este prompt:
 
 ```text
-Acesse https://raw.githubusercontent.com/14NGiestas/SKILLS.md/main/llms.txt
+Acesse https://14ngiestas.github.io/SKILLS.md/llms.txt
 Liste as skills disponíveis e, para cada uma que eu escolher:
 1. Baixe o SKILL.md indicado.
 2. Use o `name` do frontmatter como nome da habilidade e o `description` como gatilho.
@@ -86,7 +87,7 @@ Um catálogo estático é publicado com GitHub Pages:
 
 **https://14ngiestas.github.io/SKILLS.md/**
 
-O site é construído pela action reutilizável [14NGiestas/skills-site](https://github.com/14NGiestas/skills-site) a partir dos mesmos arquivos `SKILL.md`; nenhum arquivo gerado é versionado. O `.github/workflows/pages.yml` reconstrói e publica a cada push na `main`.
+O site é construído pela action reutilizável [14NGiestas/skills-site](https://github.com/14NGiestas/skills-site) a partir dos mesmos arquivos `SKILL.md`; nenhum arquivo gerado é versionado. A action também gera `llms.txt` e `catalog.md` para agentes. O `.github/workflows/pages.yml` reconstrói e publica a cada push na `main`.
 
 Ative o Pages uma vez em **Settings → Pages → Source: GitHub Actions**.
 
@@ -109,7 +110,6 @@ SKILLS.md/
 ├── README.pt-br.md
 ├── CONTRIBUTING.md
 ├── LICENSE
-├── llms.txt
 ├── opencode.json
 ├── scripts/
 │   └── lint_skills.py
