@@ -5,6 +5,8 @@ description: "Estrutura e valida a fase de Pré-Análise na Análise de Conteúd
 
 # Bardin: Pré-Análise de Conteúdo
 
+> [English](../../en/content-analysis-bardin/01-pre-analysis.md) | **Português**
+
 Skill para operacionalizar e documentar rigorosamente a Fase 1 (Pré-Análise) da metodologia de Análise de Conteúdo de Laurence Bardin (2011/2016). Assegura que a escolha, organização e preparação do corpus textual sigam parâmetros auditáveis para bancas acadêmicas.
 
 ## Quando Usar

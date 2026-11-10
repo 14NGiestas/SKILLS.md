@@ -5,6 +5,8 @@ description: "Operacionaliza a Fase 3 (Tratamento dos Resultados, Inferência e 
 
 # Bardin: Inferência, Interpretação e Defesa Metodológica
 
+> [English](../../en/content-analysis-bardin/04-interpretation.md) | **Português**
+
 Skill para operacionalizar a Fase 3 (Tratamento dos Resultados, Inferência e Interpretação) da metodologia de Análise de Conteúdo de Laurence Bardin (2011/2016). Conecta as categorias empíricas ao referencial teórico e prepara o pesquisador para defender a validade da análise perante a banca examinadora.
 
 ## Quando Usar

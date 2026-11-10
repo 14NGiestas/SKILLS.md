@@ -5,6 +5,8 @@ description: "Operationalizes the Categorization stage in Laurence Bardin's Cont
 
 # Bardin: Categorization and Traceability Matrix
 
+> **English** | [Português](../../pt-br/analise-de-conteudo-bardin/03-categorizacao.md)
+
 Skill to operationalize Step 5 (Categorization) of Phase 2 (Exploration of Material) in Laurence Bardin's Content Analysis (2011/2016). Organizes Recording Units (RU) into robust and auditable analytical categories.
 
 ## When to Use

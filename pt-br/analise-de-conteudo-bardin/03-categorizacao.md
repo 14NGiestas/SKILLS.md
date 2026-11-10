@@ -5,6 +5,8 @@ description: "Operacionaliza a etapa de Categorização na Análise de Conteúdo
 
 # Bardin: Categorização e Matriz de Rastreabilidade
 
+> [English](../../en/content-analysis-bardin/03-categorization.md) | **Português**
+
 Skill para operacionalizar o Passo 5 (Categorização) da Fase 2 (Exploração do Material) na Análise de Conteúdo de Laurence Bardin (2011/2016). Organiza as Unidades de Registro (UR) em categorias analíticas robustas e auditáveis.
 
 ## Quando Usar

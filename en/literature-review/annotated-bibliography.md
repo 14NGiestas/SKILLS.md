@@ -5,6 +5,8 @@ description: "Prepares academic reading notes and annotated bibliographies (arti
 
 # Academic Reading Notes & Annotated Bibliography
 
+> **English** | [Português](../../pt-br/revisao-bibliografica/fichamento-academico.md)
+
 Skill for operationalizing systematic reading notes and annotated bibliographies of scientific literature (articles, books, theses, and dissertations) in accordance with scientific methodology standards.
 
 ## When to Use

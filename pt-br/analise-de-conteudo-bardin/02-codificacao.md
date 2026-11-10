@@ -5,6 +5,8 @@ description: "Operacionaliza a etapa de Codificação na Análise de Conteúdo d
 
 # Bardin: Codificação e Recorte do Material
 
+> [English](../../en/content-analysis-bardin/02-coding.md) | **Português**
+
 Skill para operacionalizar o Passo 4 (Codificação) da Fase 2 (Exploração do Material) na Análise de Conteúdo de Laurence Bardin (2011/2016). Ela transforma o material bruto em dados analíticos organizados por unidades de registro e contagem.
 
 ## Quando Usar

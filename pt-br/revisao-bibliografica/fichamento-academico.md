@@ -5,6 +5,8 @@ description: "Elabora fichamentos de obras acadêmicas (artigos, capítulos de l
 
 # Fichamento de Obras Acadêmicas
 
+> [English](../../en/literature-review/annotated-bibliography.md) | **Português**
+
 Skill para operacionalizar o fichamento sistemático de literatura científica (artigos, livros, teses e dissertações) conforme as normas de metodologia do trabalho científico.
 
 ## Quando Usar
@@ -40,6 +42,6 @@ Skill para operacionalizar o fichamento sistemático de literatura científica (
 
 ## Regras de Execução
 
-1. **Separação de Voces:** Manter distinção clara entre o que é afirmação do autor do texto e o que é comentário do estudante/pesquisador.
+1. **Separação de Vozes:** Manter distinção clara entre o que é afirmação do autor do texto e o que é comentário do estudante/pesquisador.
 2. **Precisão nas Páginas:** Não inventar números de páginas. Mapear rigorosamente com base no arquivo/texto fornecido.
 3. **Clareza Sintética:** Evitar parágrafos longos no resumo temático; preferir tópicos estruturados e linguagem concisa.

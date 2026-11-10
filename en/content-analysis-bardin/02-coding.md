@@ -5,6 +5,8 @@ description: "Operationalizes the Coding stage in Laurence Bardin's Content Anal
 
 # Bardin: Coding and Material Cutout
 
+> **English** | [Português](../../pt-br/analise-de-conteudo-bardin/02-codificacao.md)
+
 Skill to operationalize Step 4 (Coding) of Phase 2 (Exploration of Material) in Laurence Bardin's Content Analysis (2011/2016). Transforms raw material into organized analytical data using units of recording and counting.
 
 ## When to Use
