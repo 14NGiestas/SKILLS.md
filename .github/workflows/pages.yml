@@ -23,7 +23,7 @@ jobs:
         with:
           enablement: true
       - id: site
-        uses: 14NGiestas/skills-site@main
+        uses: 14NGiestas/skills-site@v1
         with:
           title: "AI Skills for Humanities & Academic Research"
       - uses: actions/upload-pages-artifact@v3
