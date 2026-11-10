@@ -48,13 +48,37 @@ This repo follows the `<skill-name>/SKILL.md` convention. For opencode, [`openco
 ```json
 {
   "$schema": "https://opencode.ai/config.json",
-  "skills": { "paths": ["./en", "./pt-br"] }
+  "skills": ["./en", "./pt-br"]
 }
 ```
 
 opencode scans those paths recursively for `**/SKILL.md`, so each skill is discovered without copying anything. Restart opencode after pulling changes. To expose only one language, remove the other path.
 
 For Claude, copy or symlink the folders you want into `~/.claude/skills/`.
+
+## For agents: discover and install
+
+Give an agent a single link and it can find everything:
+
+- **Manifest:** https://raw.githubusercontent.com/14NGiestas/SKILLS.md/main/llms.txt
+- **File tree:** https://api.github.com/repos/14NGiestas/SKILLS.md/git/trees/main?recursive=1
+
+Install into opencode globally with:
+
+```bash
+git clone --depth 1 https://github.com/14NGiestas/SKILLS.md ~/.config/opencode/skills/SKILLS.md
+```
+
+Restart opencode afterwards; every `SKILL.md` under that folder is discovered (both languages). For Gemini web or chat-only agents, paste this prompt:
+
+```text
+Fetch https://raw.githubusercontent.com/14NGiestas/SKILLS.md/main/llms.txt
+List the available skills, then for each one I choose:
+1. Fetch its SKILL.md.
+2. Use the frontmatter `name` as the skill name and `description` as the trigger.
+3. Use the body after the second `---` as the instructions, without the YAML.
+4. Show the three fields ready to paste into Gemini's Skills/Habilidades screen.
+```
 
 ## Which skill do I need?
 
@@ -73,6 +97,7 @@ SKILLS.md/
 ├── README.md
 ├── CONTRIBUTING.md
 ├── LICENSE
+├── llms.txt
 ├── opencode.json
 ├── scripts/
 │   └── lint_skills.py
